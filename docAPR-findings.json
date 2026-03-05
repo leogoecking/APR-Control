@@ -1,0 +1,122 @@
+[
+  {
+    "bugId": "BUG-001",
+    "severity": "high",
+    "category": "functional",
+    "component": "audit",
+    "files": [
+      "APR CONTROL.html",
+      "src/app.js",
+      "src/lib/audit.js"
+    ],
+    "summary": "IDs com o mesmo código, mas com dados divergentes, eram contabilizados como Conferido.",
+    "currentBehavior": "Antes da correção, a auditoria marcava qualquer ID presente nas duas bases como Conferido, mesmo quando assunto, colaborador ou data divergiam.",
+    "expectedBehavior": "IDs com diferenças de dados devem ser marcados como Divergente, entrar nas contagens de divergência e aparecer na exportação CSV.",
+    "rootCause": "A função compareBases considerava apenas a presença do ID nas duas bases e tratava as diferenças de campo como informativas.",
+    "impact": "Subnotificação de divergências e falso positivo operacional na conferência mensal.",
+    "reproSteps": [
+      "Importar duas bases com o mesmo ID e assunto diferente.",
+      "Executar a auditoria do mês.",
+      "Observar que o status anterior era Conferido."
+    ],
+    "verification": [
+      "Executar tests/audit.test.js.",
+      "Confirmar que o resumo inclui summary.divergente.",
+      "Confirmar que a tabela exibe status Divergente."
+    ],
+    "status": "fixed",
+    "branch": "codex/bug-001-audit-divergence",
+    "tests": [
+      "tests/audit.test.js"
+    ]
+  },
+  {
+    "bugId": "BUG-002",
+    "severity": "medium",
+    "category": "functional",
+    "component": "history",
+    "files": [
+      "src/app.js",
+      "src/lib/history.js"
+    ],
+    "summary": "O comparativo histórico ignorava IDs removidos porque só percorria o mês atual.",
+    "currentBehavior": "Registros presentes apenas no mês anterior desapareciam do comparativo histórico.",
+    "expectedBehavior": "Registros ausentes no mês atual e presentes no anterior devem aparecer como Removido.",
+    "rootCause": "A função compareMonthToPrevious iterava apenas sobre IDs do mês atual.",
+    "impact": "Perda de rastreabilidade de remoções entre meses.",
+    "reproSteps": [
+      "Manter um ID no mês anterior e removê-lo no mês atual.",
+      "Abrir a aba Histórico.",
+      "Observar que o item não aparecia antes da correção."
+    ],
+    "verification": [
+      "Executar tests/history.test.js.",
+      "Confirmar a presença de summary.removido.",
+      "Confirmar o status Removido na lista histórica."
+    ],
+    "status": "fixed",
+    "branch": "codex/bug-002-history-removals",
+    "tests": [
+      "tests/history.test.js"
+    ]
+  },
+  {
+    "bugId": "BUG-003",
+    "severity": "medium",
+    "category": "data-integrity",
+    "component": "fixture",
+    "files": [
+      "APR Control.json",
+      "tests/fixture-validation.test.js"
+    ],
+    "summary": "A base JSON distribuída continha um registro fora do mês 2026-02.",
+    "currentBehavior": "O ID 235786 estava armazenado em 2026-02 com dataAbertura 2025-02-03.",
+    "expectedBehavior": "Todos os registros devem respeitar o mês de armazenamento no fixture oficial.",
+    "rootCause": "Erro de consistência manual no arquivo de backup versionado.",
+    "impact": "Validações, relatórios e conferências baseadas no fixture podiam produzir resultados incorretos.",
+    "reproSteps": [
+      "Abrir APR Control.json.",
+      "Inspecionar months['2026-02'].manual para o ID 235786.",
+      "Observar a data fora do período."
+    ],
+    "verification": [
+      "Executar tests/fixture-validation.test.js.",
+      "Validar ausência de month-mismatch no fixture."
+    ],
+    "status": "fixed",
+    "branch": "codex/bug-003-fixture-month-mismatch",
+    "tests": [
+      "tests/fixture-validation.test.js"
+    ]
+  },
+  {
+    "bugId": "BUG-004",
+    "severity": "medium",
+    "category": "integration",
+    "component": "imports",
+    "files": [
+      "src/app.js",
+      "src/lib/imports.js"
+    ],
+    "summary": "A importação de Excel dependia do CDN remoto sem mensagem operacional padronizada para modo offline.",
+    "currentBehavior": "Sem a biblioteca XLSX carregada, o app falhava ao importar .xlsx/.xls com mensagem pouco padronizada e sem aviso na inicialização.",
+    "expectedBehavior": "O app deve informar claramente que, offline, a importação deve ser feita via CSV e sinalizar isso também na inicialização.",
+    "rootCause": "Dependência runtime de biblioteca remota sem verificação centralizada de disponibilidade.",
+    "impact": "Falha operacional recorrente em uso offline e suporte mais custoso.",
+    "reproSteps": [
+      "Abrir o HTML sem conectividade ou bloquear o carregamento do CDN XLSX.",
+      "Tentar importar .xlsx/.xls.",
+      "Observar a orientação operacional exibida."
+    ],
+    "verification": [
+      "Executar tests/imports.test.js.",
+      "Validar a mensagem de fallback para CSV.",
+      "Confirmar aviso informativo na inicialização quando XLSX estiver indisponível."
+    ],
+    "status": "fixed",
+    "branch": "codex/bug-004-offline-xlsx-warning",
+    "tests": [
+      "tests/imports.test.js"
+    ]
+  }
+]

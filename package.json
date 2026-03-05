@@ -1,0 +1,14 @@
+﻿{
+  "name": "apr-control",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "docapr": "node scripts/generate-docapr.mjs",
+    "validate": "npm run test && npm run docapr"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,5 @@
+"bugId","severity","category","component","summary","status","branch","tests"
+"BUG-001","high","functional","audit","IDs com o mesmo código, mas com dados divergentes, eram contabilizados como Conferido.","fixed","codex/bug-001-audit-divergence","tests/audit.test.js"
+"BUG-002","medium","functional","history","O comparativo histórico ignorava IDs removidos porque só percorria o mês atual.","fixed","codex/bug-002-history-removals","tests/history.test.js"
+"BUG-003","medium","data-integrity","fixture","A base JSON distribuída continha um registro fora do mês 2026-02.","fixed","codex/bug-003-fixture-month-mismatch","tests/fixture-validation.test.js"
+"BUG-004","medium","integration","imports","A importação de Excel dependia do CDN remoto sem mensagem operacional padronizada para modo offline.","fixed","codex/bug-004-offline-xlsx-warning","tests/imports.test.js"

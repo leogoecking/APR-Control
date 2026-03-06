@@ -6,12 +6,12 @@ import { createDatabase } from '../src/db.js';
 import { createAprService } from '../src/services/apr-service.js';
 
 describe('legacy migration', () => {
-  test('imports APR Control.json into SQLite', () => {
+  test('imports APR Control.example.json into SQLite', () => {
     const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'apr-control-migration-'));
     const dbPath = path.join(dir, 'app.db');
     const db = createDatabase(dbPath);
     const service = createAprService(db);
-    const result = service.migrateLegacyFile(path.resolve(process.cwd(), '../APR Control.json'));
+    const result = service.migrateLegacyFile(path.resolve(process.cwd(), '../APR Control.example.json'));
 
     expect(result.months).toBeGreaterThan(0);
     expect(result.records).toBeGreaterThan(0);
@@ -20,3 +20,4 @@ describe('legacy migration', () => {
     db.close();
   });
 });
+

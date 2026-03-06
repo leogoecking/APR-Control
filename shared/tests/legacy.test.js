@@ -3,7 +3,7 @@ import path from 'node:path';
 import { describe, expect, test } from 'vitest';
 import { flattenLegacyDb, parseLegacyDb } from '../src/legacy.js';
 
-const fixturePath = path.resolve(process.cwd(), '../APR Control.json');
+const fixturePath = path.resolve(process.cwd(), '../APR Control.example.json');
 
 describe('legacy migration', () => {
   test('loads the legacy JSON and flattens rows', () => {
@@ -16,3 +16,4 @@ describe('legacy migration', () => {
     expect(flattened.records[0]).toHaveProperty('source');
   });
 });
+

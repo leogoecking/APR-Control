@@ -1,7 +1,37 @@
-﻿node_modules/
+node_modules/
 shared/node_modules/
 server/node_modules/
 web/node_modules/
+
+# Secrets and environment
+.env
+.env.*
+!.env.example
+!.env.*.example
+APR Control.json
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.crt
+*.cer
+
+# Local databases and dumps
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.dump
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 server/data/
 server/dist/
 web/dist/

@@ -1,8 +1,8 @@
-﻿import fs from 'node:fs';
+import fs from 'node:fs';
 import path from 'node:path';
 import { describe, expect, test } from 'vitest';
 
-const fixturePath = path.resolve('APR Control.json');
+const fixturePath = path.resolve('APR Control.example.json');
 
 describe('APR Control fixture', () => {
   test('keeps month keys aligned with row dates and without duplicate IDs per month/source', () => {
@@ -28,3 +28,4 @@ describe('APR Control fixture', () => {
     expect(issues).toEqual([]);
   });
 });
+

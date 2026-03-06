@@ -1,0 +1,36 @@
+{
+  "months": {
+    "2026-02": {
+      "manual": [
+        {
+          "ID": "EX-1001",
+          "dataAbertura": "2026-02-03",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        }
+      ],
+      "system": [
+        {
+          "ID": "EX-1001",
+          "dataAbertura": "2026-02-03",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "EX-2002",
+          "dataAbertura": "2026-02-04",
+          "assunto": "PODAS",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        }
+      ],
+      "imports": {
+        "manual": {
+          "importedAt": "2026-02-05T12:00:00.000Z"
+        },
+        "system": {
+          "importedAt": "2026-02-05T12:05:00.000Z"
+        }
+      }
+    }
+  }
+}

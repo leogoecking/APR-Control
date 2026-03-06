@@ -19,5 +19,6 @@ export const config = {
   host: process.env.APR_CONTROL_HOST || '0.0.0.0',
   port: Number(process.env.APR_CONTROL_PORT || 3000),
   webDistPath: process.env.APR_CONTROL_WEB_DIST || path.join(repoRoot, 'web', 'dist'),
-  legacyJsonPath: process.env.APR_CONTROL_LEGACY_JSON || path.join(repoRoot, 'APR Control.json'),
+  legacyJsonPath: process.env.APR_CONTROL_LEGACY_JSON || (fs.existsSync(path.join(repoRoot, 'APR Control.json')) ? path.join(repoRoot, 'APR Control.json') : path.join(repoRoot, 'APR Control.example.json')),
 };
+

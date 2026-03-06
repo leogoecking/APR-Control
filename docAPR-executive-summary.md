@@ -1,18 +1,9 @@
 # docAPR Executive Summary
 
-- Total de findings verificados: 4
-- Severidades: high=1, medium=3
+- Total de findings verificados: 3
+- Severidades: medium=3
 
 ## Findings
-
-### BUG-001 - IDs com o mesmo código, mas com dados divergentes, eram contabilizados como Conferido.
-- Severidade: high
-- Categoria: functional
-- Componente: audit
-- Status: fixed
-- Branch: codex/bug-001-audit-divergence
-- Arquivos: APR CONTROL.html, src/app.js, src/lib/audit.js
-- Testes: tests/audit.test.js
 
 ### BUG-002 - O comparativo histórico ignorava IDs removidos porque só percorria o mês atual.
 - Severidade: medium

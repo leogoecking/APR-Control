@@ -1,12 +1,20 @@
-﻿{
+{
   "name": "apr-control",
   "private": true,
   "type": "module",
+  "workspaces": [
+    "shared",
+    "server",
+    "web"
+  ],
   "scripts": {
-    "test": "vitest run",
-    "test:watch": "vitest",
+    "build": "npm run build --workspace @apr-control/shared && npm run build --workspace @apr-control/server && npm run build --workspace @apr-control/web",
+    "dev:server": "npm run dev --workspace @apr-control/server",
+    "dev:web": "npm run dev --workspace @apr-control/web",
+    "test": "npm run test --workspace @apr-control/shared && npm run test --workspace @apr-control/server && npm run test --workspace @apr-control/web",
     "docapr": "node scripts/generate-docapr.mjs",
-    "validate": "npm run test && npm run docapr"
+    "validate": "npm run test && npm run build && npm run docapr",
+    "migrate:legacy": "npm run migrate:legacy --workspace @apr-control/server"
   },
   "devDependencies": {
     "vitest": "^3.2.4"

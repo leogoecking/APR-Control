@@ -1,0 +1,21 @@
+{
+  "name": "@apr-control/shared",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./audit": "./src/audit.js",
+    "./history": "./src/history.js",
+    "./imports": "./src/imports.js",
+    "./normalization": "./src/normalization.js",
+    "./legacy": "./src/legacy.js"
+  },
+  "scripts": {
+    "build": "node -e \"import('./src/index.js')\"",
+    "test": "vitest run --config vitest.config.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

@@ -1,35 +1,4 @@
-﻿[
-  {
-    "bugId": "BUG-001",
-    "severity": "high",
-    "category": "functional",
-    "component": "audit",
-    "files": [
-      "APR CONTROL.html",
-      "src/app.js",
-      "src/lib/audit.js"
-    ],
-    "summary": "IDs com o mesmo código, mas com dados divergentes, eram contabilizados como Conferido.",
-    "currentBehavior": "Antes da correção, a auditoria marcava qualquer ID presente nas duas bases como Conferido, mesmo quando assunto, colaborador ou data divergiam.",
-    "expectedBehavior": "IDs com diferenças de dados devem ser marcados como Divergente, entrar nas contagens de divergência e aparecer na exportação CSV.",
-    "rootCause": "A função compareBases considerava apenas a presença do ID nas duas bases e tratava as diferenças de campo como informativas.",
-    "impact": "Subnotificação de divergências e falso positivo operacional na conferência mensal.",
-    "reproSteps": [
-      "Importar duas bases com o mesmo ID e assunto diferente.",
-      "Executar a auditoria do mês.",
-      "Observar que o status anterior era Conferido."
-    ],
-    "verification": [
-      "Executar tests/audit.test.js.",
-      "Confirmar que o resumo inclui summary.divergente.",
-      "Confirmar que a tabela exibe status Divergente."
-    ],
-    "status": "fixed",
-    "branch": "codex/bug-001-audit-divergence",
-    "tests": [
-      "tests/audit.test.js"
-    ]
-  },
+[
   {
     "bugId": "BUG-002",
     "severity": "medium",

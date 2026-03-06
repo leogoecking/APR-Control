@@ -1,5 +1,8 @@
 ﻿node_modules/
+shared/node_modules/
+server/node_modules/
+web/node_modules/
+server/data/
+server/dist/
+web/dist/
 coverage/
-docAPR/*.json
-!docAPR/findings-source.json
-APR Control.generated.json

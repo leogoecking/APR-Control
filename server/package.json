@@ -1,0 +1,20 @@
+{
+  "name": "@apr-control/server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "build": "node -e \"import('./src/app.js')\"",
+    "test": "vitest run --config vitest.config.js",
+    "migrate:legacy": "node scripts/migrate-legacy.mjs"
+  },
+  "dependencies": {
+    "@apr-control/shared": "*",
+    "@fastify/multipart": "^9.0.3",
+    "@fastify/static": "^8.3.0",
+    "better-sqlite3": "^11.10.0",
+    "fastify": "^5.3.3"
+  }
+}

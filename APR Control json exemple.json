@@ -1,0 +1,1002 @@
+{
+  "months": {
+    "2026-02": {
+      "manual": [
+        {
+          "ID": "234870",
+          "dataAbertura": "2026-02-02",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Felipe"
+        },
+        {
+          "ID": "235570",
+          "dataAbertura": "2026-02-02",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Felipe"
+        },
+        {
+          "ID": "235571",
+          "dataAbertura": "2026-02-02",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "235572",
+          "dataAbertura": "2026-02-02",
+          "assunto": "PODAS",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "235573",
+          "dataAbertura": "2026-02-02",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "235684",
+          "dataAbertura": "2026-02-03",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "235734",
+          "dataAbertura": "2026-02-03",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "235786",
+          "dataAbertura": "2025-02-03",
+          "assunto": "PODAS",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "235787",
+          "dataAbertura": "2026-02-04",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "João Pedro"
+        },
+        {
+          "ID": "235788",
+          "dataAbertura": "2026-02-04",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Felipe"
+        },
+        {
+          "ID": "235792",
+          "dataAbertura": "2026-02-04",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "235907",
+          "dataAbertura": "2026-02-05",
+          "assunto": "PODAS",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "235910",
+          "dataAbertura": "2026-02-05",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Felipe"
+        },
+        {
+          "ID": "235979",
+          "dataAbertura": "2026-02-05",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Felipe"
+        },
+        {
+          "ID": "235992",
+          "dataAbertura": "2026-02-06",
+          "assunto": "DOCUMENTAÇÃO",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "235994",
+          "dataAbertura": "2026-02-06",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Felipe"
+        },
+        {
+          "ID": "236043",
+          "dataAbertura": "2026-02-06",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "236115",
+          "dataAbertura": "2026-02-07",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "Felipe"
+        },
+        {
+          "ID": "236143",
+          "dataAbertura": "2026-02-08",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "236144",
+          "dataAbertura": "2026-02-08",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "236150",
+          "dataAbertura": "2026-02-08",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "236151",
+          "dataAbertura": "2026-02-09",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "236153",
+          "dataAbertura": "2026-02-13",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Jose"
+        },
+        {
+          "ID": "236155",
+          "dataAbertura": "2026-02-09",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "236287",
+          "dataAbertura": "2026-02-09",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "236288",
+          "dataAbertura": "2026-02-10",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "236372",
+          "dataAbertura": "2026-02-10",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "236411",
+          "dataAbertura": "2026-02-11",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "236414",
+          "dataAbertura": "2026-02-11",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "236495",
+          "dataAbertura": "2026-02-16",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "236496",
+          "dataAbertura": "2026-02-12",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "236537",
+          "dataAbertura": "2026-02-12",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "236545",
+          "dataAbertura": "2026-02-13",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "236577",
+          "dataAbertura": "2026-02-12",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "236578",
+          "dataAbertura": "2026-02-13",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "236581",
+          "dataAbertura": "2026-02-18",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "236671",
+          "dataAbertura": "2026-02-14",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "236704",
+          "dataAbertura": "2026-02-16",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "236714",
+          "dataAbertura": "2026-02-17",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "João Pedro"
+        },
+        {
+          "ID": "236716",
+          "dataAbertura": "2026-02-17",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "João Pedro"
+        },
+        {
+          "ID": "236738",
+          "dataAbertura": "2026-02-18",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "236759",
+          "dataAbertura": "2026-02-18",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "236760",
+          "dataAbertura": "2026-02-18",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "236815",
+          "dataAbertura": "2026-02-18",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "João Pedro"
+        },
+        {
+          "ID": "236816",
+          "dataAbertura": "2026-02-19",
+          "assunto": "PODAS",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "236822",
+          "dataAbertura": "2026-02-19",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "236831",
+          "dataAbertura": "2026-02-19",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "236915",
+          "dataAbertura": "2026-02-20",
+          "assunto": "PODAS",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "237028",
+          "dataAbertura": "2026-02-21",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "237075",
+          "dataAbertura": "2026-02-23",
+          "assunto": "PODAS",
+          "colaborador": "João Pedro"
+        },
+        {
+          "ID": "237076",
+          "dataAbertura": "2026-02-23",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "237078",
+          "dataAbertura": "2026-02-23",
+          "assunto": "IDENTIFICAÇÃO",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "237200",
+          "dataAbertura": "2026-02-24",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "237201",
+          "dataAbertura": "2026-02-24",
+          "assunto": "DEMANDA INTERNA",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "237241",
+          "dataAbertura": "2026-02-24",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "237341",
+          "dataAbertura": "2026-02-24",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "João Pedro"
+        },
+        {
+          "ID": "237345",
+          "dataAbertura": "2026-02-25",
+          "assunto": "PODAS",
+          "colaborador": "Felipe"
+        },
+        {
+          "ID": "237346",
+          "dataAbertura": "2026-02-25",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "237347",
+          "dataAbertura": "2026-02-25",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "237386",
+          "dataAbertura": "2026-02-25",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "237437",
+          "dataAbertura": "2026-02-26",
+          "assunto": "DOCUMENTAÇÃO",
+          "colaborador": "João Pedro"
+        },
+        {
+          "ID": "237438",
+          "dataAbertura": "2026-02-25",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "Harisson"
+        },
+        {
+          "ID": "237494",
+          "dataAbertura": "2026-02-26",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "237497",
+          "dataAbertura": "2026-02-27",
+          "assunto": "DOCUMENTAÇÃO",
+          "colaborador": "João Pedro"
+        },
+        {
+          "ID": "237498",
+          "dataAbertura": "2026-02-27",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "237499",
+          "dataAbertura": "2026-02-26",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "237556",
+          "dataAbertura": "2026-02-28",
+          "assunto": "MAPEAMENTO",
+          "colaborador": "Renan"
+        },
+        {
+          "ID": "237558",
+          "dataAbertura": "2026-02-27",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "Venicio"
+        },
+        {
+          "ID": "237618",
+          "dataAbertura": "2026-02-28",
+          "assunto": "MANUTENÇÃO FIBRA",
+          "colaborador": "Harisson"
+        }
+      ],
+      "system": [
+        {
+          "ID": "235571",
+          "dataAbertura": "2026-02-01",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "235572",
+          "dataAbertura": "2026-02-01",
+          "assunto": "PODAS",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "235573",
+          "dataAbertura": "2026-02-01",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "235582",
+          "dataAbertura": "2026-02-02",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "235682",
+          "dataAbertura": "2026-02-02",
+          "assunto": "PODAS",
+          "colaborador": "FELIPE EDWIN SANTOS OLIVEIRA"
+        },
+        {
+          "ID": "235683",
+          "dataAbertura": "2026-02-02",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "235684",
+          "dataAbertura": "2026-02-02",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "235685",
+          "dataAbertura": "2026-02-02",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "235734",
+          "dataAbertura": "2026-02-03",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "235786",
+          "dataAbertura": "2026-02-03",
+          "assunto": "PODAS",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "235787",
+          "dataAbertura": "2026-02-03",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "JOÃO PEDRO DO CARMO ALMEIDA"
+        },
+        {
+          "ID": "235788",
+          "dataAbertura": "2026-02-03",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "FELIPE EDWIN SANTOS OLIVEIRA"
+        },
+        {
+          "ID": "235789",
+          "dataAbertura": "2026-02-03",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "235792",
+          "dataAbertura": "2026-02-04",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "235862",
+          "dataAbertura": "2026-02-04",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "235907",
+          "dataAbertura": "2026-02-04",
+          "assunto": "PODAS",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "235909",
+          "dataAbertura": "2026-02-04",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "235910",
+          "dataAbertura": "2026-02-04",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "FELIPE EDWIN SANTOS OLIVEIRA"
+        },
+        {
+          "ID": "235911",
+          "dataAbertura": "2026-02-04",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "235992",
+          "dataAbertura": "2026-02-05",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "235993",
+          "dataAbertura": "2026-02-05",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "235994",
+          "dataAbertura": "2026-02-05",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "FELIPE EDWIN SANTOS OLIVEIRA"
+        },
+        {
+          "ID": "235995",
+          "dataAbertura": "2026-02-05",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236043",
+          "dataAbertura": "2026-02-06",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236105",
+          "dataAbertura": "2026-02-06",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236106",
+          "dataAbertura": "2026-02-06",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236115",
+          "dataAbertura": "2026-02-07",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "FELIPE EDWIN SANTOS OLIVEIRA"
+        },
+        {
+          "ID": "236143",
+          "dataAbertura": "2026-02-08",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236144",
+          "dataAbertura": "2026-02-08",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236150",
+          "dataAbertura": "2026-02-08",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "236151",
+          "dataAbertura": "2026-02-08",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236152",
+          "dataAbertura": "2026-02-08",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236155",
+          "dataAbertura": "2026-02-09",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236207",
+          "dataAbertura": "2026-02-09",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "236284",
+          "dataAbertura": "2026-02-09",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236287",
+          "dataAbertura": "2026-02-09",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "236288",
+          "dataAbertura": "2026-02-09",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236372",
+          "dataAbertura": "2026-02-10",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236382",
+          "dataAbertura": "2026-02-10",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236409",
+          "dataAbertura": "2026-02-10",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236411",
+          "dataAbertura": "2026-02-10",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236414",
+          "dataAbertura": "2026-02-10",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "236495",
+          "dataAbertura": "2026-02-11",
+          "assunto": "MANUTENÇÃO - SITE/POP",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "236496",
+          "dataAbertura": "2026-02-11",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236498",
+          "dataAbertura": "2026-02-11",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236537",
+          "dataAbertura": "2026-02-12",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236545",
+          "dataAbertura": "2026-02-12",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "236577",
+          "dataAbertura": "2026-02-12",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "236578",
+          "dataAbertura": "2026-02-12",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236581",
+          "dataAbertura": "2026-02-12",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236671",
+          "dataAbertura": "2026-02-13",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "236694",
+          "dataAbertura": "2026-02-14",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "236704",
+          "dataAbertura": "2026-02-16",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236714",
+          "dataAbertura": "2026-02-17",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "JOÃO PEDRO DO CARMO ALMEIDA"
+        },
+        {
+          "ID": "236716",
+          "dataAbertura": "2026-02-17",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "JOÃO PEDRO DO CARMO ALMEIDA"
+        },
+        {
+          "ID": "236738",
+          "dataAbertura": "2026-02-18",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236759",
+          "dataAbertura": "2026-02-18",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "236760",
+          "dataAbertura": "2026-02-18",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236815",
+          "dataAbertura": "2026-02-18",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "JOÃO PEDRO DO CARMO ALMEIDA"
+        },
+        {
+          "ID": "236816",
+          "dataAbertura": "2026-02-18",
+          "assunto": "PODAS",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236822",
+          "dataAbertura": "2026-02-19",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236914",
+          "dataAbertura": "2026-02-19",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "236915",
+          "dataAbertura": "2026-02-19",
+          "assunto": "PODAS",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "236980",
+          "dataAbertura": "2026-02-20",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "237023",
+          "dataAbertura": "2026-02-20",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "237024",
+          "dataAbertura": "2026-02-20",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "237025",
+          "dataAbertura": "2026-02-20",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "JOÃO PEDRO DO CARMO ALMEIDA"
+        },
+        {
+          "ID": "237026",
+          "dataAbertura": "2026-02-20",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "237028",
+          "dataAbertura": "2026-02-20",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "237075",
+          "dataAbertura": "2026-02-22",
+          "assunto": "PODAS",
+          "colaborador": "JOÃO PEDRO DO CARMO ALMEIDA"
+        },
+        {
+          "ID": "237076",
+          "dataAbertura": "2026-02-22",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "237078",
+          "dataAbertura": "2026-02-23",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "237199",
+          "dataAbertura": "2026-02-23",
+          "assunto": "PODAS",
+          "colaborador": "JOÃO PEDRO DO CARMO ALMEIDA"
+        },
+        {
+          "ID": "237200",
+          "dataAbertura": "2026-02-23",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "237241",
+          "dataAbertura": "2026-02-24",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "237341",
+          "dataAbertura": "2026-02-24",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "JOÃO PEDRO DO CARMO ALMEIDA"
+        },
+        {
+          "ID": "237345",
+          "dataAbertura": "2026-02-24",
+          "assunto": "PODAS",
+          "colaborador": "FELIPE EDWIN SANTOS OLIVEIRA"
+        },
+        {
+          "ID": "237346",
+          "dataAbertura": "2026-02-24",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "237347",
+          "dataAbertura": "2026-02-24",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "237386",
+          "dataAbertura": "2026-02-25",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "237437",
+          "dataAbertura": "2026-02-25",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "JOÃO PEDRO DO CARMO ALMEIDA"
+        },
+        {
+          "ID": "237494",
+          "dataAbertura": "2026-02-26",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "237497",
+          "dataAbertura": "2026-02-26",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "JOÃO PEDRO DO CARMO ALMEIDA"
+        },
+        {
+          "ID": "237500",
+          "dataAbertura": "2026-02-26",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        },
+        {
+          "ID": "237558",
+          "dataAbertura": "2026-02-27",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "VENICIO DOS SANTOS LEAL"
+        }
+      ],
+      "imports": {
+        "system": {
+          "fileName": "relatoriomes.csv",
+          "importedAt": "2026-03-05T12:52:06.606Z",
+          "totalValid": 85,
+          "totalInvalid": 1,
+          "duplicates": 0,
+          "totalInvalidGlobal": 1,
+          "duplicatesGlobal": 0,
+          "monthDetectedByDate": false
+        },
+        "manual": {
+          "fileName": "FevereiroAPR.csv",
+          "importedAt": "2026-03-05T12:52:30.951Z",
+          "totalValid": 69,
+          "totalInvalid": 0,
+          "duplicates": 0,
+          "totalInvalidGlobal": 0,
+          "duplicatesGlobal": 0,
+          "monthDetectedByDate": false
+        }
+      }
+    },
+    "2026-03": {
+      "manual": [
+        {
+          "ID": "237673",
+          "dataAbertura": "2026-03-01",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "237700",
+          "dataAbertura": "2026-03-02",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "237701",
+          "dataAbertura": "2026-03-02",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "237732",
+          "dataAbertura": "2026-03-02",
+          "assunto": "MANUTENCAO FIBRA - INFRA",
+          "colaborador": "RENAN MEDINA SCHULTZ"
+        },
+        {
+          "ID": "237746",
+          "dataAbertura": "2026-03-02",
+          "assunto": "DOCUMENTAÇÃO FIBRA",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        },
+        {
+          "ID": "237817",
+          "dataAbertura": "2026-03-03",
+          "assunto": "MANUTENÇÃO CAIXA NAP",
+          "colaborador": "HARISSON LUCAS CRUZ RESENDE"
+        }
+      ],
+      "system": [],
+      "imports": {}
+    }
+  },
+  "meta": {
+    "createdAt": "2026-03-05T12:48:17.512Z",
+    "updatedAt": "2026-03-05T14:46:56.889Z"
+  }
+}
